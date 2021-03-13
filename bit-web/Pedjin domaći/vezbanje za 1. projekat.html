@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srdjan</title>
+</head>
+<body>
+    <h1>LOGIN FORM</h1>
+    <form action="sima.html" method="GET">
+        USERNAME: <input type="text" name="username" size="20" placeholder="username"><br><br>
+        PASSWORD: <input type="password" name="password" size="20" placeholder="password">
+        <a href="Reset password.html" target="_blank">Forgot password</a><br><br>
+       
+    </form>
+
+    <hr>
+
+    <h1>RADIO/CHECKBOX/TEXTAREA</h1>
+
+    <p>Which music you like to listen?
+    <form action="sima.html" method="GET">
+        <input type="radio" name="music" value="Classic" checked="checked">Classic<br>
+        <input type="radio" name="music" value="Rock">Rock<br>
+        <input type="radio" name="music" value="Pop">Pop<br>
+    </p>
+     <p>Which instrument you know to play?<br><br>
+        <input type="checkbox" name="instrument" value="Guitar" checked="checked">Guitar<br>
+        <input type="checkbox" name="instrument" value="Violin">Violin<br>
+        <input type="checkbox" name="instrument" value="Piano">Piano<br>
+        <input type="checkbox" name="instrument" value="Harf">Harf<br>
+        <input type="checkbox" name="instrument" value="Celo">Celo<br><br>
+     </p>
+    <p>Describe your favourite instrument:</p>
+         <textarea name="text" rows="5" cols="30" placeholder="Describe..."></textarea>
+
+    </form>
+
+         <hr>
+         <h1>DROPDOWN/MULTISELECT</h1>
+    <p>Your birthday?</p><br>
+         <form action="sima.html" method="GET">
+            <form action="#" method="POST">
+                <select name="day" id ="day">
+                <option value="0">Day</option>  
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select name="month" id ="month">
+                <option value="0">Month</option>
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="jun">Jun</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+    
+            </select>
+    
+            <select name ="year" id = "year">
+                <option value ="0">Year</option> 
+                <option value = "1967">1967</option>
+                <option value = "1968">1968</option>
+                <option value = "1969">1969</option>
+                <option value = "1970">1970</option>
+                <option value = "1971">1971</option>
+                <option value = "1972">1972</option>
+                <option value = "1973">1973</option>
+                <option value = "1974">1974</option>
+                <option value = "1975">1975</option>
+                <option value = "1976">1976</option>
+                <option value = "1977">1977</option>
+                <option value = "1978">1978</option>
+                <option value = "1979">1979</option>
+                <option value = "1980">1980</option>
+                <option value = "1981">1981</option>
+                <option value = "1982">1982</option>
+                <option value = "1983">1983</option>
+                <option value = "1984">1984</option>
+                <option value = "1985">19985</option>
+                <option value = "1986">1986</option>
+            </select>
+
+        </form>
+        
+        <form action="sima.html" method="GET">
+
+            <p>Which instrument you like?</p><br>
+
+            <select name="instrument" size="3" multiple="multiple">
+                <option value="Guitar" selected="selected">Guitar</option>
+                <option value="Piano">Piano</option>
+                <option value="Drums" selected ="selected">Drums</option>
+                <option value="Keyboard">Keyboard</option>
+                <option value="Violin">Violin</option><br>
+
+            </select>
+            </form>
+            <hr>
+
+            <h1>FILE INPUT/SUBMIT</h1>
+            
+            <form action="handle-upload.html" target="_blank" method="POST">
+                
+                <input type="file" name="picture before">
+                <textarea name="text" id="text" cols="30" rows="5" placeholder="Description before">Description before
+                </textarea><br><br>
+                <input type="file" name="picture after">
+                <textarea name="text" id="text" cols="30" rows="5" placeholder="Desription after">Description after</textarea>
+                <button id = "send">Send</button>
+            </form>
+
+                <hr>
+                <h1>RESET/HIDDEN/BUTTON</h1>
+                <form action="sima.html" method="GET">
+                    <input type = "text" name = "text" id = "text"><br><br>
+                    <textarea name = "textarea" id ="textarea" cols="30" rows="10"></textarea><br><br>
+                    <input type ="radio" name = "yes"  value ="yes" checked="checked" >YES <br><br>
+                    <input type ="radio" name = "no"  value ="no">NO <br><br>
+                    <input type="reset" value="reset"><br>
+                    <input type="image" src="sub.jpg.jpg" width="100" height="50"><br><br>
+                </form>
+
+                <hr>
+
+                <h1>Labels/Grouping</h1>
+    <fieldset>
+        <legend>Input for reservation</legend>
+        <form>
+            <label for="postText">Name</label><br>
+            <input type="text" id="postText" size="15" maxlength="30" placeholder="Enter your name"> <br>
+            <label for="email">Email</label> <br>
+            <input type="text" id="email" placeholder="Enter your email"><br>
+
+            <label for="text">Phone number</label><br>
+            <input type="text" id="phone number" placeholder="Enter your phone number">
+
+
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Location</legend>
+        <form>
+            <label for="text">City</label><br>
+            <input type="text" id="postText" size="21" maxlength="30" placeholder="Enter the name of your city"> <br>
+            <label for="text">Street</label> <br>
+            <input type="text" id="street" size="23" maxlength="30" placeholder="Enter the name of your street"><br>
+            <label for="text">Street number</label><br>
+            <input type="text" id="street number" placeholder="Enter your street number">
+        </form>
+
+    </fieldset>
+
+    <legend>Event information</legend>
+    <form>
+        <input type="checkbox" name="service []" value="Birthday"/>Birthday
+        <input type="checkbox" name="service []" value="Wedding"/>Wedding
+        <input type="checkbox" name="service []" value="Company"/>Company
+        <br><br>
+
+        <label for="text">How many guests you expected</label>  <br>
+        <input type="number" id="number" min="5" max="300" placeholder="Enter number of guests"><br>
+
+    </form>
+    <fieldset>
+        <button>
+            <input type="image" name="submit" src="sub.jpg.jpg" width="100" height="50" tag="sub" alt="Submit"/>
+
+        </button>
+    </fieldset>
+
+    <hr>
+
+    <h1> HTML5 elements (required, date, email, url, search)</h1>
+    <form action="#" method="POST">
+        <label for="username">Username</label><br>
+        <input type="text" name="username" id="username" placeholder="Enter Username" required>
+        <br><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" placeholder="Enter password" required>
+
+        <hr>
+
+        <label for="username">Date for publishing Post</label>
+        <input type="date" name="date" id="date">
+
+        <hr>
+        <p>Please enter your website here:</p>
+        <input type="url" name="website" id="website" placeholder="Enter website">
+        <input type="submit" value="Submit website">
+
+        <hr>
+
+        <p>Please enter your email address here:</p>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <input type="submit" value="Submit Email">
+    </form>
+
+
+
+
+            
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
+
