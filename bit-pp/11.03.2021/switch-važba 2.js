@@ -1,4 +1,4 @@
-var day = '9'
+var day = '7'
 
 switch (day){
     case '1':
@@ -21,6 +21,7 @@ switch (day){
     break;
     case '7':
      console.log('Sunday');
+     break;
      default:
          console.log('Input must be the number between 1 and 7');
          break;

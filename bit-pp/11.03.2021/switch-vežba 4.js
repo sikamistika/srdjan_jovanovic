@@ -1,4 +1,4 @@
-var month = '10'
+var month = '8'
 
 switch (month) {
     case '1':

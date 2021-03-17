@@ -1,8 +1,8 @@
-var weather = 'windy'
+var weather = 'rainy'
 
 switch(weather){
     case 'rainy':
-        confirm.log('Remember to bring the umbrela');
+        console.log('Remember to bring the umbrela');
         break;
         case 'sunny':
             console.log('Dress lightly');
