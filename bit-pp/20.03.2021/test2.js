@@ -9,5 +9,5 @@ for ( var i=0; i<a.length; i++){
     if (a[i]>0){
         a[i]*=2
     } 
-};
+}
 console.log (a)

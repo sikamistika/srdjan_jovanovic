@@ -11,7 +11,7 @@ for (var i=0; i<a.length; i++){
         min=a[i];
         index=i;
     }
-}
+} 
 var min2=Infinity;
 for (var i=0; i<a.length; i++){
     if (i!==index){
