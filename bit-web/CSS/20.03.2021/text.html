@@ -1,0 +1,61 @@
+<!-- Browser-Safe Font Family
+Create a page with multiple paragraphs
+Apply different fonts to each of them
+Add a quote to each paragraph and define a different font for each quote
+
+
+Font size/weight/style
+Use HTML/CSS from the previous example
+Apply global font size/weight
+Override the global font for the first paragraph (apply some other font)
+Apply “oblique” style to the text in the second paragraph
+Create a span element somewhere inside the third paragraph
+Increase weight of the text inside the span and make it italic -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+.pr1{
+    font-style: italic;
+    font-size: 150%;
+    font-weight: bolder;
+    
+}
+
+.pr2{
+    font-style: inherit;
+    font-size: 150%;
+    font-weight: normal;
+}
+
+.pr3{
+    font-style: oblique;
+    font-size: 150%;
+    font-weight: unset ;
+}
+
+
+</style>
+
+<body>
+    <p class="pr1">
+        "Phasellus congue semper massa, quis congue sapien venenatis tempor. Cras lobortis ligula luctus tellus vestibulum, vel tincidunt nisl gravida. Donec porttitor pellentesque facilisis. Quisque eros nunc, aliquam a nunc eu, auctor facilisis nisl. Suspendisse pellentesque, mauris ac sodales cursus, leo risus varius leo, eu placerat tortor felis eget quam. Donec vitae ultricies ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sed finibus ligula, sed rutrum massa. Aenean at lobortis arcu, quis fringilla mauris. Nulla condimentum odio non nulla luctus, ac rhoncus nulla maximus. Aliquam ornare ante nec risus sodales porta. Cras suscipit leo nec ultricies fringilla."
+    </p>
+
+    <p class="pr2">
+        "Phasellus congue semper massa, quis congue sapien venenatis tempor. Cras lobortis ligula luctus tellus vestibulum, vel tincidunt nisl gravida. Donec porttitor pellentesque facilisis. Quisque eros nunc, aliquam a nunc eu, auctor facilisis nisl. Suspendisse pellentesque, mauris ac sodales cursus, leo risus varius leo, eu placerat tortor felis eget quam. Donec vitae ultricies ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sed finibus ligula, sed rutrum massa. Aenean at lobortis arcu, quis fringilla mauris. Nulla condimentum odio non nulla luctus, ac rhoncus nulla maximus. Aliquam ornare ante nec risus sodales porta. Cras suscipit leo nec ultricies fringilla."
+    </p>
+
+    <p class="pr3">
+        "Phasellus congue semper massa, quis congue sapien venenatis tempor. Cras lobortis ligula luctus tellus vestibulum, vel tincidunt nisl gravida. Donec porttitor pellentesque facilisis. Quisque eros nunc, aliquam a nunc eu, auctor facilisis nisl. Suspendisse pellentesque, mauris ac sodales cursus, leo risus varius leo, eu placerat tortor felis eget quam. Donec vitae ultricies ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sed finibus ligula, sed rutrum massa. Aenean at lobortis arcu, quis fringilla mauris. Nulla condimentum odio non nulla luctus, ac rhoncus nulla maximus. Aliquam ornare ante nec risus sodales porta. Cras suscipit leo nec ultricies fringilla."
+    </p>
+</body>
+</html>
