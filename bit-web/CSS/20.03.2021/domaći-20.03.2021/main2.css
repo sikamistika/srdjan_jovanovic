@@ -7,12 +7,16 @@ body {
     background-color: #212121;
 }
 
+span {
+    color: red;
+}
+
 .container {
     width: 960px;
     margin: 20px auto;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    background: #607D8B;
+    background: turquoise;
 }
 
 /* --------Hedings------- */
@@ -28,13 +32,14 @@ h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 0px;
     padding-left: 10px;
-    text-align: left;
+    text-align: center;
     background: #D32F2F;
     color: white;
 }
 
 .title {
     background-color: #D32F2F;
+    color:rgb(255, 255, 255)
 
 }
 
@@ -48,8 +53,8 @@ img {
 
 table {
     width: 100%;
-    color: rgb(211, 147, 147);
-    background: blue;
+    color: rgb(255, 1, 1);
+    background: rgb(2, 252, 64);
     border-collapse: collapse;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -70,12 +75,20 @@ td {
 td:first-child {
     width: 300px;
     padding-left: 10px;
+    background-color: yellow;
+}
+
+#drugaTabela td:nth-child(2){
+    width: 350px;
+    padding-left: 20px;
+    background-color:blue;  
 }
 
 #srdjan {
     
-    border-top: 1px solid white;
+    border-top: 3px solid blueviolet;
     padding-top: 20px;
     background-color: black;
     color:red;
+    border-bottom: 5px solid blueviolet;
 }
