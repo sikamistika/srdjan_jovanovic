@@ -1,0 +1,77 @@
+<!-- @font-face
+Take some time googling and find websites that provide fonts
+Downloading and including a font:
+○ Go to Google Fonts and download some font
+○ Include that font on page
+○ Apply the font to first paragraph
+Font via url from remote server:
+○ Go to Google Fonts and get the link for the font
+○ Include that font on the page using a link
+○ Apply the font to the page title
+
+Uppercase &amp; Lowercase/Underline &amp; Strikethrough
+● Create a page with two paragraphs
+● Use CSS to transform all the letters in the first paragraph to uppercase and
+underline them
+● Transform the text in the second paragraph to lowercase and apply strike
+to it
+
+Line/Word/Letter Spacing (Challenge for students)
+● Create a page with three paragraphs
+● Spacing between characters in the first paragraph should be 5px
+● Line height of the second paragraph is 200% of the original line height
+● The third paragraph should not be styled
+
+Alignment
+● Align text in the previous examples:
+○ First paragraph to the left
+○ Second to the right
+○ Third should be centered
+
+Shadow/Pseudo-Classes
+Create a page with a list of links to some websites
+Shadow
+● Set the default color for that list
+● Add text shadow to text of all the list elements
+Pseudo-Classes
+● Each link that is not clicked yet should be red
+● Each visited link should be black
+
+● Hovering over text should make it green
+● Clicking and holding the link should make it blue -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobster-Regular</title>
+
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> -->
+
+</head>
+<style>
+
+@font-face {
+    font-family: 'Lobster-Regular';
+    src: url('Lobster-Regular.ttf');
+}
+
+p{
+    font-family: Lobster-Regular;
+}
+
+
+
+
+</style>
+
+<body>
+    <p>
+        "Phasellus congue semper massa, quis congue sapien venenatis tempor. Cras lobortis ligula luctus tellus vestibulum, vel tincidunt nisl gravida. Donec porttitor pellentesque facilisis. Quisque eros nunc, aliquam a nunc eu, auctor facilisis nisl. Suspendisse pellentesque, mauris ac sodales cursus, leo risus varius leo, eu placerat tortor felis eget quam. Donec vitae ultricies ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sed finibus ligula, sed rutrum massa. Aenean at lobortis arcu, quis fringilla mauris. Nulla condimentum odio non nulla luctus, ac rhoncus nulla maximus. Aliquam ornare ante nec risus sodales porta. Cras suscipit leo nec ultricies fringilla."
+    </p>
+</body>
+</html>
