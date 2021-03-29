@@ -1,0 +1,108 @@
+<!-- Size
+Create a page containing two paragraphs.
+The first paragraph should have a yellow background
+The second paragraph should have a red background
+Add a lot of text to both of them
+
+Fixed size
+The first paragraph has width of 400px and height of 500px
+The second should have 600px width and 300px height
+Paragraph text should not overflow the box
+
+Dynamic size
+Max width of the first paragraph should be 300px
+Max height of the second one should be 200px
+The first paragraph text should be cut if it's bigger than the box
+The second paragraph text can overflow the paragraph (text can be bigger than the paragraph box)
+
+
+
+
+
+    
+Borders
+Create three paragraphs on the page
+All of them should have a yellow background
+Each paragraph should have a 5px thick border
+The first and the last paragraphs should have red dashed borders
+The middle one should have green solid borders
+
+
+
+
+
+
+
+
+Padding
+Use the previous example or create three new paragraphs with bg color
+Set padding for each paragraph
+The first and the third should
+Padding
+Use the previous example or create three new paragraphs with bg color
+Set padding for each paragraph
+The first and the third should have a 50px padding around all sides
+The middle one should have a 50px top padding only
+
+
+Margins
+Use the previous example and add margins to each element
+The first should be 300px wide and should have 50px margins around all sides
+The second should be 400px wide and it should be horizontally centered on the screen
+The third one should be 200px wide and should have a 100px wide left margin -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vezba1</title>
+</head>
+<style>
+    .pr1{
+        background-color: yellow;
+        color: black;
+        width: 400px;
+        height: 500px;
+        max-width: 300px;
+        overflow: hidden;
+
+    }
+    .pr2{
+        background-color: red;
+        width: 600px;
+        height: 300px;
+        max-height: 200px;
+        overflow: scroll;
+    }
+</style>
+<body>
+    <p class="pr1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis justo sodales, bibendum diam non, faucibus odio. Maecenas condimentum elit eu semper pulvinar. Sed vestibulum ligula eu finibus maximus. Nulla facilisi. Curabitur suscipit rutrum ante sed tristique. Nulla non ex ut lectus ullamcorper placerat. Morbi dictum neque sed vestibulum elementum. Phasellus in enim eu ipsum iaculis facilisis eget id augue. Cras dignissim sodales mi eu euismod.
+
+Vivamus eu neque vitae neque feugiat consequat vitae ut erat. Sed nec cursus massa. Sed faucibus luctus est, et varius enim varius porttitor. Cras vehicula, augue a tempus luctus, purus lacus commodo tortor, a ultricies ante nunc id ligula. Quisque sed tristique nisl. Nunc erat arcu, tempor sit amet commodo at, condimentum vitae velit. Sed vitae facilisis urna.
+
+Pellentesque eleifend commodo risus, eu ultrices ex bibendum vitae. Ut finibus eleifend tempor. Curabitur blandit volutpat laoreet. In tellus lorem, tempus aliquet erat in, interdum tincidunt lacus. Phasellus risus massa, fringilla a erat nec, auctor convallis neque. Nunc at convallis leo, et malesuada lectus. Cras lobortis ornare massa a elementum. Integer elementum dui id dui mattis, quis ultrices mauris imperdiet. Duis et lectus a augue aliquet placerat. Maecenas ante eros, gravida in urna nec, feugiat hendrerit justo. Sed in egestas turpis, eu pellentesque erat. Quisque tristique eros purus, eu pretium dolor tempor id. Curabitur at egestas tellus.
+
+Nulla sodales mollis enim, a commodo ante congue vitae. Cras a urna tortor. Pellentesque et sollicitudin ligula. Curabitur feugiat suscipit congue. Nam pulvinar sem at tincidunt feugiat. Vivamus iaculis maximus felis semper accumsan. Vivamus nulla nisl, dapibus sit amet ullamcorper nec, lacinia a urna. Aenean porttitor erat justo, quis sollicitudin tellus vulputate sit amet. Ut tempus lorem non nisl condimentum dictum. Praesent eleifend felis a nibh posuere sagittis. Sed in facilisis diam, vitae volutpat elit. Fusce in tristique lorem, in faucibus tortor. Aliquam a imperdiet lorem. Duis nisl nisl, imperdiet sit amet risus a, ultrices venenatis est.
+
+Sed odio magna, ultricies vitae nisi vitae, tristique volutpat arcu. Nunc varius ligula egestas lacus malesuada, et feugiat sapien interdum. Duis viverra tellus ac urna placerat, eget cursus lacus tincidunt. Integer vel consectetur odio. Integer ornare tincidunt nunc, in aliquam metus. Quisque semper dolor nulla, vitae placerat nunc tristique sed. Fusce imperdiet, justo at imperdiet pulvinar, leo urna ultricies enim, id euismod orci lectus ac erat. Integer facilisis pharetra augue, id iaculis erat tristique at. Integer eget varius nulla. Integer viverra lacus feugiat libero molestie, vitae fringilla neque suscipit. Suspendisse mollis enim eget velit ullamcorper suscipit et in mi.
+    </p><br>
+
+    <p class="pr2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis justo sodales, bibendum diam non, faucibus odio. Maecenas condimentum elit eu semper pulvinar. Sed vestibulum ligula eu finibus maximus. Nulla facilisi. Curabitur suscipit rutrum ante sed tristique. Nulla non ex ut lectus ullamcorper placerat. Morbi dictum neque sed vestibulum elementum. Phasellus in enim eu ipsum iaculis facilisis eget id augue. Cras dignissim sodales mi eu euismod.
+
+Vivamus eu neque vitae neque feugiat consequat vitae ut erat. Sed nec cursus massa. Sed faucibus luctus est, et varius enim varius porttitor. Cras vehicula, augue a tempus luctus, purus lacus commodo tortor, a ultricies ante nunc id ligula. Quisque sed tristique nisl. Nunc erat arcu, tempor sit amet commodo at, condimentum vitae velit. Sed vitae facilisis urna.
+
+Pellentesque eleifend commodo risus, eu ultrices ex bibendum vitae. Ut finibus eleifend tempor. Curabitur blandit volutpat laoreet. In tellus lorem, tempus aliquet erat in, interdum tincidunt lacus. Phasellus risus massa, fringilla a erat nec, auctor convallis neque. Nunc at convallis leo, et malesuada lectus. Cras lobortis ornare massa a elementum. Integer elementum dui id dui mattis, quis ultrices mauris imperdiet. Duis et lectus a augue aliquet placerat. Maecenas ante eros, gravida in urna nec, feugiat hendrerit justo. Sed in egestas turpis, eu pellentesque erat. Quisque tristique eros purus, eu pretium dolor tempor id. Curabitur at egestas tellus.
+
+Nulla sodales mollis enim, a commodo ante congue vitae. Cras a urna tortor. Pellentesque et sollicitudin ligula. Curabitur feugiat suscipit congue. Nam pulvinar sem at tincidunt feugiat. Vivamus iaculis maximus felis semper accumsan. Vivamus nulla nisl, dapibus sit amet ullamcorper nec, lacinia a urna. Aenean porttitor erat justo, quis sollicitudin tellus vulputate sit amet. Ut tempus lorem non nisl condimentum dictum. Praesent eleifend felis a nibh posuere sagittis. Sed in facilisis diam, vitae volutpat elit. Fusce in tristique lorem, in faucibus tortor. Aliquam a imperdiet lorem. Duis nisl nisl, imperdiet sit amet risus a, ultrices venenatis est.
+
+Sed odio magna, ultricies vitae nisi vitae, tristique volutpat arcu. Nunc varius ligula egestas lacus malesuada, et feugiat sapien interdum. Duis viverra tellus ac urna placerat, eget cursus lacus tincidunt. Integer vel consectetur odio. Integer ornare tincidunt nunc, in aliquam metus. Quisque semper dolor nulla, vitae placerat nunc tristique sed. Fusce imperdiet, justo at imperdiet pulvinar, leo urna ultricies enim, id euismod orci lectus ac erat. Integer facilisis pharetra augue, id iaculis erat tristique at. Integer eget varius nulla. Integer viverra lacus feugiat libero molestie, vitae fringilla neque suscipit. Suspendisse mollis enim eget velit ullamcorper suscipit et in mi.
+    </p>
+
+</body>
+</html>
