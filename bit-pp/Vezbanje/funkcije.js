@@ -89,7 +89,62 @@
 // console.log(result)
 
 
+//var a = [2, 4, 7, 8, 7, 7, 1]
+
+
+//     function app(e){
+//     var match = 0
+//     for (i=0; i<a.length; i++){
+//         if (a[i]===e){
+//          match += 1
+//     }
+//     }
+//     return match
+// }
+// result = app(8)
+// console.log(result)
+
+
+
+// function numOfLetter(str, letter){
+//     var letterCount = 0
+//     for (position=0; position<str.length; position++){
+//         if (str.charAt(position) == letter) {
+//             letterCount += 1
+//         }
+//     }       return letterCount
+// }
+// result = (('anamarija', 'a'))
+// console.log(result)
 
 
 
 
+function char_count(str, letter) 
+{
+ var counter = 0;
+ for (position = 0; position < str.length; position++)  
+ {
+    if (str.charAt(position) == letter) 
+      {
+      counter += 1;
+      }
+  }
+  return counter;
+}
+
+console.log(char_count('anamarija', 'm'));
+
+
+
+// function repeatStringNumTimes(string, times) {
+//     if(times < 0) 
+//       return "";
+//     if(times === 1) 
+//       return string;
+//     else 
+//       return string + repeatStringNumTimes(string, times - 1);
+//   }
+//   result =  repeatStringNumTimes("abc", 8);
+
+//   console.log(result)
