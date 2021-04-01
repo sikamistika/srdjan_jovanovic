@@ -118,22 +118,24 @@
 // console.log(result)
 
 
+//Zadatak 10
+
+// function char_count(str, letter) {
+//  var counter = 0;
+//  for (index = 0; index < str.length; index++) {
+//     if (str.charAt(index) == letter) {
+//       counter += 1;
+//       }
+//   }
+//   return counter;
+// }
+
+// console.log("Ima ovoliko = " + char_count('Anamarija', "A"));
 
 
-function char_count(str, letter) 
-{
- var counter = 0;
- for (position = 0; position < str.length; position++)  
- {
-    if (str.charAt(position) == letter) 
-      {
-      counter += 1;
-      }
-  }
-  return counter;
-}
 
-console.log(char_count('anamarija', 'm'));
+
+
 
 
 
@@ -148,3 +150,7 @@ console.log(char_count('anamarija', 'm'));
 //   result =  repeatStringNumTimes("abc", 8);
 
 //   console.log(result)
+
+
+
+

@@ -7,7 +7,7 @@
 // *****
 
 
-function drawquare(n){
+function drawSquare(n){
     var square = "";
     for(var row = 0; row<n; row++){
         for(var col = 0; col<n; col++){
@@ -18,14 +18,11 @@ function drawquare(n){
             }else {
                 square += " ";
             }
-
         }
         square += '\n';
     }
 
-    return square;
+    console.log(square);
 }
 
-var draw = drawSquare(S);
-
-console.log(draw)
+drawSquare(5);
