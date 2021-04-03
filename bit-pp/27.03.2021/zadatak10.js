@@ -8,7 +8,10 @@ function numOfAInString(string){
             charCounter++;
         }
     }
-}return charCounter
+}
+    return charCounter
+
+    
 
 
 

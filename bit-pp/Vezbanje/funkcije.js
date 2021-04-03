@@ -147,7 +147,7 @@
 //     else 
 //       return string + repeatStringNumTimes(string, times - 1);
 //   }
-//   result =  repeatStringNumTimes("abc", 8);
+//   result =  repeatStringNumTimes(" Ha ", 3);
 
 //   console.log(result)
 
