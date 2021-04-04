@@ -2,16 +2,16 @@
 // "My random string", "n" -> 2
 
 
-function numberOfLetter (string, times){
+function numberOfLetter (s){
     var counter = 0
-    for (i=0; i<string.length; i++){
-        var novi = string[i];
-        if(novi === letter){
+    for (i=0; i<s.length; i++){
+        if(s[i] === 'a'){
             counter ++;
         }
         
     }
-    return numberOfLetter (string, times)
+    return counter
 
 }
-    console.log (numberOfLetter (, times))
+    result = numberOfLetter ('srdjanjovanovic', 'a')
+    console.log (result)

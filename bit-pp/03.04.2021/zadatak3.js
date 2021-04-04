@@ -14,5 +14,5 @@ function repeatStringNumTimes(string, times) {
   
 //   result = repeatStringNumTimes("Ha", 1)
 
-  console.log( repeatStringNumTimes("Ha", 8))
+  console.log( repeatStringNumTimes("Ha", 2))
   
