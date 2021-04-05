@@ -4,52 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vežba4</title>
-<style>
-table{
-    margin:auto;
-    border: black;
-    border-spacing: 0px;
-    padding: 10px;
-    background-color: lightgray;
+    <title>Srdjan</title>
+    <style>
+
+        *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px
+    
 }
-</style>
+
+        .container{
+    border: 2px solid black;
+    padding: 20px;
+    width: 370px;
+    margin: auto;
+    background-color: rgb(151, 211, 203);
+
+        }
+        .form-box{
+    
+    width: 75%;
+    margin: auto;
+    background-color: rgb(230, 229, 236);
+    border-radius: 15px 0px 15px 0px ;
+    padding: 40px;
+    
+    
+}
+
+span{
+    color: orange;
+    font-size: 36px;
+}
 
 
+input[type=text]{
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 7px 8px 7px -2px #CEC8C4; 
+    box-shadow: 7px 8px 7px -2px #CEC8C4;
+        
+}
 
+input[type=text]:hover{
+    cursor:alias;
+
+}
+
+h1{
+    color: rgba(7, 7, 12, 0.808);
+    font-size: 36px;
+    text-align: center;
+}
+
+form{
+    padding: 5px 20px;
+    text-align: left;
+
+}
+
+#demo {
+-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+/* input[type=text]{
+  -webkit-box-shadow: 7px 8px 7px -2px #CEC8C4; 
+  box-shadow: 7px 8px 7px -2px #CEC8C4;
+
+} */
+
+p{
+    -webkit-box-shadow: 7px 8px 7px -2px #CEC8C4; 
+    box-shadow: 7px 8px 7px -2px #CEC8C4;
+}
+
+input[type=submit]{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 25px;
+    padding: 5px;
+    
+}
+
+input[type=submit]:hover{
+    cursor: url(cursor.png), auto;
+}
+
+    </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <td>
-            <h1>FormGet</h1>
+    <div class="container">
+        <div class="form-box">
+            <div id="demo">
+            <div class="headline">
+                <h1>Form<span>Get</span></h1>
+            </div>
             <hr>
-            
-                <form action="#">
-                    <label for = "username">FULLNAME:</label>
-                    <input type="text" name="fullname">
-                    <br>
-                    <br>
-                    <label for ="email">EMAIL</label>
-                    <input type="email" name="email">
-                </form>
-                <form action="#">
-                    <label for = "contact number">CONTACT NUMBER</label>
-                    <input type="text" name="contact number">
-                    <br>
-                    <br>
-                    <label for ="adress">ADRESS</label>
-                    <input type="text" name="adress">  
-                </form>
-                <form>
-                    <button id="submit">Submit</button>
-                </form>
-                
-            
-            </td>
-        </tr>
-
-
-    </table>
+            <form action="mailto:srdjan.jovanovic73@gmail.com">
+                 <p>Full name</p>
+                <input id="demo1" type="text" name="full-name" placeholder="Full name">
+                 <p>Email</p>
+                <input type="text" name="email" placeholder="Email">
+                <p>Contact number</p>
+                <input type="text" name="contact" placeholder="Contact number">
+                <p>Address</p>
+                <input type="text" name="address" placeholder="Address">
+                <br>
+                <input type="submit" name="submit" value="Submit">
+            </form>
+            </div>
+        </div>
+        </div>  
 </body>
 </html>
