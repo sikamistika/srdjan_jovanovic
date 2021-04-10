@@ -15,6 +15,6 @@ function checksNumber (e){
     return 'no';
  }
 
-var result = checksNumber (2);
+var result = checksNumber (7);
 console.log (result);
 

@@ -12,13 +12,13 @@ for (var i=0; i<a.length; i++){
         index=i;
     }
 } 
-var min2=Infinity;
-for (var i=0; i<a.length; i++){
-    if (i!==index){
-    if (a[i]<min2){
+ var min2=Infinity;
+ for (var i=0; i<a.length; i++){
+     if (i!==index){
+     if (a[i]<min2){
         min2=a[i];
-    }
-}
+     }
+ }
 }
 console.log (min2);
 

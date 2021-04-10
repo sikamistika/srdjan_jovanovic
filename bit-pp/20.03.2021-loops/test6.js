@@ -11,7 +11,7 @@ for (var i=0, j=a.length-1; i<a.length; i++, j--){
             result = 'The array is symmetric.';
         }
         else {
-            result='The array isn’t symmetric.'
+            result='The array isn’t symmetric.';
         }
     }
 }
