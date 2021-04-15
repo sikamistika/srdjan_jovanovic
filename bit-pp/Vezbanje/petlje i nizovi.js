@@ -59,25 +59,56 @@
 // &quot;Fizz&quot; or &quot;Buzz&quot; for numbers divisible by only one of those).
 
 
-for(i=1; i<=100; i++){
+// for(i=1; i<=100; i++){
    
-if (i%3===0 && i%5===0){
-    console.log('FizzBuzz')  
-}
+// if (i%3===0 && i%5===0){
+//     console.log('FizzBuzz')  
+// }
 
-else if(i%3===0){
-    console.log('Fizz')
-} 
+// else if(i%3===0){
+//     console.log('Fizz')
+// } 
 
-else if(i%5===0 && i%15!==0){
+// else if(i%5===0 && i%15!==0){
 
-    console.log('Buzz')
-}
+//     console.log('Buzz')
+// }
 
 
-else {
-    console.log(i)
+// else {
+//     console.log(i)
 
-}
 
-}
+
+// Write a program that multiplies every positive element of a given array by 2.
+// Input array: [-3, 11, 5, 3.4, -8]
+// Output array: [-3, 22, 10, 6.8, -8]
+
+// var a = [-3, 11, 5, 3.4, -8]
+// var newArray = [];
+
+
+// for(i = 0; i<a.length; i++){
+//     if(a[i] > 0){
+//         a[i] = a[i]*2
+        
+
+//     }
+// }
+//     console.log(a)
+
+    // Write a program that outputs the sum of squares of the first 20 numbers.
+
+    var sum = 0;
+    for (i=1; i<=20; i++ ){
+        sum = sum + i*i;
+
+    }
+    console.log(sum);
+    
+
+
+
+
+
+
