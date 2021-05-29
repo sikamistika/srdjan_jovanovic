@@ -1,0 +1,8 @@
+$bordo: rgba(255, 0, 121, 0.5);
+$debljina: 5px;
+.klasa2 {
+    border: $debljina solid;
+    p {
+        color: $bordo;
+    }
+}
