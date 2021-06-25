@@ -22,9 +22,9 @@ Person.prototype.sayHello = function (){
 
 
 
-jane.sayHello();
+//jane.sayHello();
 
-ivan.sayHello();
+//ivan.sayHello();
 
 function Player (name, surname, country, betAmount){
     Person.call(this, name, surname)
@@ -35,12 +35,12 @@ function Player (name, surname, country, betAmount){
 Player.prototype = Object.create(Person.prototype);
 Player.prototype.constructor = Player;
 
-Player.prototype.prinInfo = function () {
+Player.prototype.printInfo = function () {
     var fullName = this.getFullName();
 
-    console.log(fullName + ' '+ this.betAmount + ' euros');
+    console.log(fullName + ' '+ this.country + ' ' + this.betAmount + ' euros');
 }
 
 var player1  = new Player('Pera', 'Perić', 'Srbija', 100);
 
-console.log(player1.getFullName());
+player1.printInfo();
