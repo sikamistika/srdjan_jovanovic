@@ -16,4 +16,4 @@ for (i=0; i<a.length; i++){
         result = 'error';
     }
 }
-    console.log (result)
+    console.log (result);
