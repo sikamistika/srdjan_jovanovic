@@ -1,20 +1,22 @@
 var createdMovieList = [];
-var createdMovieLength = [];
 var $movieTitle = document.querySelector('#title');
 var $createMovie = document.querySelector('#createMovie');
 var $movieList = document.querySelector('#movieList');
 var $errorDisplay = document.querySelector('#errorDisplay');
 var $movieLength = document.querySelector('#length');
+var $genreMovie = document.querySelector('#genre');
 
 
 var onMovieCreate = function () {
     var titleValue = $movieTitle.value;
+    var movieLength = $movieLength.value;
+    var genreMovie = $genreMovie;
 
-    if (!titleValue) {
-        $errorDisplay.textContent = 'Title is required!'
+    if (!titleValue || !movieLength) {
+        $errorDisplay.textContent = 'Both are required!'
         return;
     }
-    var newMovie = new Movie (titleValue);
+    var newMovie = new Movie (titleValue, movieLength, genreMovie);
 
     createdMovieList.push(newMovie);
     $movieList.innerHTML +='<li>' + newMovie.getData() + '</li>';
@@ -23,22 +25,6 @@ var onMovieCreate = function () {
 
 $createMovie.addEventListener('click', onMovieCreate);
 
-var onMovieLength = function () {
-    var lengthValue = $movieLength.value;
 
-    if(!lengthValue) {
-        $errorDisplay.textContent = 'Length is required';
-        return;
-    }
-    var newLength = new Length (lengthValue);
-
-    createdMovieLength.push(newLength);
-    $movieLength.innerHTML += '<li>' + newLength.getData() + '</li>';
-    console.log(createdMovieLength);
-
-};
-
-$movieLength.addEventListener('click', onMovieLength);
-    
 
 

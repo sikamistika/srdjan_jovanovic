@@ -14,7 +14,20 @@
     <label for="title">Title</label><br>
     <input type="text" id='title' value=""><br><br>
     <label for="length">Length (min)</label><br>
-    <input type="number" id="length" value=""><br><br>
+    <input type="text" id="length" value=""><br><br>
+    
+
+    <label for="movieGenere">Choose a movie genre:</label>
+    <select id="genre" name="movieGenere" size="1">
+    <option value="comedy">Comedy</option>
+    <option value="drama">Drama</option>
+    <option value="scienceFiction">Science Fiction</option>
+    <option value="action">Action</option>
+    <option value ="western">Western</option>
+    <option value ="horror">Horror</option>
+    <option value="thriler">Thriller</option>
+    </select><br><br>
+
 
 <button id="createMovie">Create Movie</button>
 
@@ -22,7 +35,6 @@
 
 
 <ul id="movieList"></ul>
-
 
 <script src="entities.js"></script>
 <script src="form.js"></script>
