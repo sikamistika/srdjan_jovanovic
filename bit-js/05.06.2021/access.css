@@ -1,0 +1,56 @@
+ol, ul {
+    width: 50%;
+    max-width: 350px;
+    border: 2px solid red;
+    padding: 1rem;
+  }
+  ​
+  ol {
+    list-style-position: inside;
+  }
+  ​
+  ul {
+    list-style-type: none;
+  }
+  ​
+  li {
+    padding: 0.5em;
+  }
+  ​
+  .active {
+    background-color: rgba(255, 0, 0, 0.24);
+  }
+  ​
+  .exercise1-list {
+    list-style-type: circle;
+    list-style-position: inside;
+  }
+  ​
+  ul.coloredList {
+    background-color: rgba(194, 141, 26, 0.295);
+  }
+  ​
+  .flashyBG {
+    background-color: gold;
+  }
+  ​
+  .specialBGplusUpperCase {
+    background-color: orange;
+    text-transform: uppercase;
+  }
+  ​
+  button {
+    all: unset;
+    background-color: red;
+    color: white;
+    padding: 1em;
+    font-weight: bold;
+    margin: 1rem;
+    border-radius: 0.3rem;
+  }
+  ​
+  button:hover {
+    transform: scale(0.98);
+    filter: brightness(93%);
+  }
+  /*# sourceMappingURL=style.css.map */

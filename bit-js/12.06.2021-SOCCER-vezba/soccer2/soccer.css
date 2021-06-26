@@ -1,0 +1,43 @@
+
+#container {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    position: relative;
+    
+}
+
+#field {
+    width: 100%;
+    height: 100%;
+}
+
+#player{
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left .5s cubic-bezier(.42,-0.3,.78,1.25), 
+                top .5s cubic-bezier(.42,-0.3,.78,1.25);
+}
+
+#button1{
+    background: yellow;
+    color: black;
+    padding: 10px 20px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+    border-radius: 10px;
+
+}
+
+/* #button2{
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    position: absolute;
+    margin-top:40px;
+    right:0px;
+} */
+
